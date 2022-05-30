@@ -1,0 +1,80 @@
+
+
+/*Following are the  CSS rules that apply to the header*/
+header {
+	background-color: #356915;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom:10px;
+
+	background-image: url(timer.svg);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+    background-size: auto 70%;
+    
+}
+
+/*Following are the  CSS rules that apply to the body*/
+
+body {
+	margin:0px;
+	font-family: 'Arial', sans-serif;
+	color: #343434;
+}
+
+/*Following are the  CSS rules that apply to the header-title*/
+#header_title {
+	padding-left:40px;
+	font-size:24px;
+	color:#FFFFFF;
+
+}
+
+/*Following are the  CSS rules that apply to the nav*/
+nav {
+	display: flex;
+}
+
+
+/*Following are the  CSS rules that apply to the links of the nav*/
+nav a {
+	display: inline-block;
+	color: #FFF;
+	border: 1px solid white;
+	text-decoration: none;
+	padding:5px;
+	margin-left:10px;
+	font-size:14px;
+}
+
+/*Following are the  CSS rules that apply to the nav (giving the hover effects to it)*/
+nav a:hover {
+    background:white;
+    opacity: 0.3;
+}
+
+/*Following are the  CSS rules that apply to the nav menu*/
+nav a.current_menu {
+	background:#FFF;
+	color:#356915;
+}
+
+/*Following are the  CSS rules that apply to the content-container's h1*/
+#content_container h1
+{
+	background-color: #CDCDCD;
+	color: #343434;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	font-size: 32px;
+}
+
+/*Following are the  CSS rules that apply to content-container*/
+#content_container
+{
+    padding: 10px;
+    border: 2px solid  #CDCDCD ;
+    width: 800 px;
+}

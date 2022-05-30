@@ -1,0 +1,21 @@
+label,select{
+  display:inline-block;
+
+  width: 23%;
+  padding: 5px;
+  margin: 10px;
+
+}
+#reports_filter_form{
+background-color: #CDCDCD;
+color: #343434;}
+#results{
+  width:100%;
+}
+th{
+  background-color: #CDCDCD;
+}
+tr{
+  border-bottom: 1px solid #CDCDCD;
+  padding: 5px;
+}

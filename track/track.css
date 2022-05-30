@@ -1,0 +1,76 @@
+
+label {
+    margin-right:15px;
+    padding: 15px;
+}
+
+
+label[for=project_id]{
+    margin-left: auto;
+}
+
+/*Following CSS rules are for the form*/
+#track_form {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    background-color: #CDCDCD;
+    color: #343434;
+    padding: 10px;
+}
+
+
+#project_id, #description{
+    margin-right: auto;
+    padding: 15px;
+    flex:1;
+}
+
+/*-------------------------------------------------------------*/
+
+
+/*Following CSS rules are for the "buttons" according to the styles outlined in the project*/
+#start_button, #stop_button {
+    display: block;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#start_button {
+    background-color: #009900;
+}
+
+#stop_button {
+    background-color: #990000;
+}
+
+
+a:hover {
+    opacity: 0.8;
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+
+#start_button.hidden,
+#stop_button.hidden { 
+    display: none; 
+}
+
+#start_button.visible,
+#stop_button.visible { 
+    display: block; 
+}
+
+#counter
+{
+    font-size: 80px;
+    font-family: "Courier", "Courier new", monospace;
+    text-align: center;
+    margin-top: 10px;
+}
